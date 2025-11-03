@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9162BF72EB8F37100D3C505 /* GridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162BF62EB8F37100D3C505 /* GridCell.swift */; };
+		F9162BF92EB8F38500D3C505 /* WallBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162BF82EB8F38500D3C505 /* WallBlock.swift */; };
+		F9162BFB2EB8F39400D3C505 /* GestureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162BFA2EB8F39400D3C505 /* GestureType.swift */; };
+		F9162BFD2EB8F3C100D3C505 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162BFC2EB8F3C100D3C505 /* GridViewModel.swift */; };
+		F9162BFF2EB8F3D100D3C505 /* GestureRecognizerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162BFE2EB8F3D100D3C505 /* GestureRecognizerViewModel.swift */; };
+		F9162C012EB8F3E200D3C505 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C002EB8F3E200D3C505 /* GridView.swift */; };
+		F9162C032EB8F3F300D3C505 /* WallBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C022EB8F3F300D3C505 /* WallBlockView.swift */; };
+		F9162C052EB8F40300D3C505 /* GestureOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C042EB8F40300D3C505 /* GestureOverlayView.swift */; };
+		F9162C072EB8F41700D3C505 /* AnimatedShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C062EB8F41700D3C505 /* AnimatedShapesView.swift */; };
 		F9C474BC2EB4FE51004DEACB /* GridClanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C474BB2EB4FE51004DEACB /* GridClanApp.swift */; };
 		F9C474BE2EB4FE51004DEACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C474BD2EB4FE51004DEACB /* ContentView.swift */; };
 		F9C474C02EB4FE56004DEACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C474BF2EB4FE56004DEACB /* Assets.xcassets */; };
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F9162BF62EB8F37100D3C505 /* GridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCell.swift; sourceTree = "<group>"; };
+		F9162BF82EB8F38500D3C505 /* WallBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallBlock.swift; sourceTree = "<group>"; };
+		F9162BFA2EB8F39400D3C505 /* GestureType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureType.swift; sourceTree = "<group>"; };
+		F9162BFC2EB8F3C100D3C505 /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
+		F9162BFE2EB8F3D100D3C505 /* GestureRecognizerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureRecognizerViewModel.swift; sourceTree = "<group>"; };
+		F9162C002EB8F3E200D3C505 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		F9162C022EB8F3F300D3C505 /* WallBlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallBlockView.swift; sourceTree = "<group>"; };
+		F9162C042EB8F40300D3C505 /* GestureOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureOverlayView.swift; sourceTree = "<group>"; };
+		F9162C062EB8F41700D3C505 /* AnimatedShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedShapesView.swift; sourceTree = "<group>"; };
 		F9C474B82EB4FE51004DEACB /* GridClan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridClan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C474BB2EB4FE51004DEACB /* GridClanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridClanApp.swift; sourceTree = "<group>"; };
 		F9C474BD2EB4FE51004DEACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +89,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F9162BF32EB8F30A00D3C505 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F9162BF62EB8F37100D3C505 /* GridCell.swift */,
+				F9162BF82EB8F38500D3C505 /* WallBlock.swift */,
+				F9162BFA2EB8F39400D3C505 /* GestureType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F9162BF42EB8F31D00D3C505 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F9162BFC2EB8F3C100D3C505 /* GridViewModel.swift */,
+				F9162BFE2EB8F3D100D3C505 /* GestureRecognizerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F9162BF52EB8F32A00D3C505 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F9162C002EB8F3E200D3C505 /* GridView.swift */,
+				F9162C022EB8F3F300D3C505 /* WallBlockView.swift */,
+				F9162C042EB8F40300D3C505 /* GestureOverlayView.swift */,
+				F9162C062EB8F41700D3C505 /* AnimatedShapesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F9C474AF2EB4FE51004DEACB = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +142,9 @@
 		F9C474BA2EB4FE51004DEACB /* GridClan */ = {
 			isa = PBXGroup;
 			children = (
+				F9162BF52EB8F32A00D3C505 /* Views */,
+				F9162BF42EB8F31D00D3C505 /* ViewModels */,
+				F9162BF32EB8F30A00D3C505 /* Models */,
 				F9C474BB2EB4FE51004DEACB /* GridClanApp.swift */,
 				F9C474BD2EB4FE51004DEACB /* ContentView.swift */,
 				F9C474BF2EB4FE56004DEACB /* Assets.xcassets */,
@@ -257,8 +308,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9162BFD2EB8F3C100D3C505 /* GridViewModel.swift in Sources */,
 				F9C474BE2EB4FE51004DEACB /* ContentView.swift in Sources */,
+				F9162C012EB8F3E200D3C505 /* GridView.swift in Sources */,
+				F9162BF92EB8F38500D3C505 /* WallBlock.swift in Sources */,
+				F9162C032EB8F3F300D3C505 /* WallBlockView.swift in Sources */,
+				F9162C072EB8F41700D3C505 /* AnimatedShapesView.swift in Sources */,
+				F9162C052EB8F40300D3C505 /* GestureOverlayView.swift in Sources */,
 				F9C474BC2EB4FE51004DEACB /* GridClanApp.swift in Sources */,
+				F9162BFB2EB8F39400D3C505 /* GestureType.swift in Sources */,
+				F9162BF72EB8F37100D3C505 /* GridCell.swift in Sources */,
+				F9162BFF2EB8F3D100D3C505 /* GestureRecognizerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

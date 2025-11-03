@@ -12,6 +12,7 @@ struct GridClanApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }
