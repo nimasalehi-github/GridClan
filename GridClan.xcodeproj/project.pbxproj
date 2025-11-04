@@ -16,6 +16,8 @@
 		F9162C152EB9025700D3C505 /* ObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C142EB9025700D3C505 /* ObjectView.swift */; };
 		F9162C172EB9026600D3C505 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C162EB9026600D3C505 /* ControlPanelView.swift */; };
 		F9162C192EB9027800D3C505 /* SmartSuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C182EB9027800D3C505 /* SmartSuggestionView.swift */; };
+		F927E19C2EBA785600F4A3C3 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = F927E19B2EBA785600F4A3C3 /* Building.swift */; };
+		F927E19E2EBA7C9100F4A3C3 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F927E19D2EBA7C9100F4A3C3 /* MainMenuView.swift */; };
 		F939C0AB2EBA5AF200DA4880 /* BuildingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0AA2EBA5AF200DA4880 /* BuildingModels.swift */; };
 		F939C0AD2EBA5B3900DA4880 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0AC2EBA5B3900DA4880 /* BuildingView.swift */; };
 		F939C0AF2EBA5B6200DA4880 /* GridBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0AE2EBA5B6200DA4880 /* GridBackground.swift */; };
@@ -58,6 +60,8 @@
 		F9162C142EB9025700D3C505 /* ObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectView.swift; sourceTree = "<group>"; };
 		F9162C162EB9026600D3C505 /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
 		F9162C182EB9027800D3C505 /* SmartSuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSuggestionView.swift; sourceTree = "<group>"; };
+		F927E19B2EBA785600F4A3C3 /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
+		F927E19D2EBA7C9100F4A3C3 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 		F939C0AA2EBA5AF200DA4880 /* BuildingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingModels.swift; sourceTree = "<group>"; };
 		F939C0AC2EBA5B3900DA4880 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
 		F939C0AE2EBA5B6200DA4880 /* GridBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBackground.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 				F9162C0A2EB901E900D3C505 /* GameObject.swift */,
 				F9162C0C2EB901FB00D3C505 /* ObjectType.swift */,
 				F939C0AA2EBA5AF200DA4880 /* BuildingModels.swift */,
+				F927E19B2EBA785600F4A3C3 /* Building.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 				F939C0AC2EBA5B3900DA4880 /* BuildingView.swift */,
 				F939C0AE2EBA5B6200DA4880 /* GridBackground.swift */,
 				F939C0B02EBA5B8300DA4880 /* SmartLayoutView.swift */,
+				F927E19D2EBA7C9100F4A3C3 /* MainMenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -342,10 +348,12 @@
 				F9162C0B2EB901E900D3C505 /* GameObject.swift in Sources */,
 				F9162C172EB9026600D3C505 /* ControlPanelView.swift in Sources */,
 				F9C474BE2EB4FE51004DEACB /* ContentView.swift in Sources */,
+				F927E19C2EBA785600F4A3C3 /* Building.swift in Sources */,
 				F939C0AB2EBA5AF200DA4880 /* BuildingModels.swift in Sources */,
 				F939C0AF2EBA5B6200DA4880 /* GridBackground.swift in Sources */,
 				F9C474BC2EB4FE51004DEACB /* GridClanApp.swift in Sources */,
 				F9162C112EB9022900D3C505 /* GestureManager.swift in Sources */,
+				F927E19E2EBA7C9100F4A3C3 /* MainMenuView.swift in Sources */,
 				F939C0B12EBA5B8300DA4880 /* SmartLayoutView.swift in Sources */,
 				F9162C0F2EB9021800D3C505 /* GameGridViewModel.swift in Sources */,
 				F9162C192EB9027800D3C505 /* SmartSuggestionView.swift in Sources */,

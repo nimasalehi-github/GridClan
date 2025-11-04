@@ -5,7 +5,6 @@
 //  Created by Nima Salehi on 11/4/25.
 //
 
-import Foundation
 import SwiftUI
 
 struct BuildingView: View {
@@ -22,7 +21,6 @@ struct BuildingView: View {
                         .font(.caption2)
                         .foregroundColor(.white)
                 )
-            
             Text(building.name_en)
                 .font(.system(size: 6))
                 .foregroundColor(.primary)
@@ -35,9 +33,7 @@ struct BuildingView: View {
         case "Defense": return .red
         case "ResourceProducer": return .yellow
         case "ResourceStorage": return .blue
-        case "Wall": return .gray
-        case "Decoration": return .green
-        default: return .purple
+        default: return .gray
         }
     }
 }
