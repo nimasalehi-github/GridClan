@@ -1,0 +1,30 @@
+{
+  "version": "1.0",
+  "updated_at": "2025-11-03T18:00:00Z",
+  "buildings": [
+    {
+      "id": "gold_storage_1",
+      "name_en": "Gold Storage",
+      "name_fa": "مخزن طلا",
+      "category": "Resource",
+      "belongs_to": ["Home Village"],
+      "grid_size": { "w": 3, "h": 3 },
+      "max_level": 16,
+      "description": "Stores your hard-earned gold safely.",
+      "image_url": "https://static.wikia.nocookie.net/clashofclans/images/3/3f/Gold_Storage.png",
+      "position": { "x": 10, "y": 15 }
+    },
+    {
+      "id": "elixir_collector_1",
+      "name_en": "Elixir Collector",
+      "name_fa": "جمع‌کننده اکسیر",
+      "category": "Resource",
+      "belongs_to": ["Home Village"],
+      "grid_size": { "w": 3, "h": 3 },
+      "max_level": 16,
+      "description": "Collects elixir over time.",
+      "image_url": "https://static.wikia.nocookie.net/clashofclans/images/b/b0/Elixir_Collector.png",
+      "position": { "x": 15, "y": 10 }
+    }
+  ]
+}

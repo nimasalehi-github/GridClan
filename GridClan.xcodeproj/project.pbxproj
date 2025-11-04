@@ -21,6 +21,7 @@
 		F939C0AF2EBA5B6200DA4880 /* GridBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0AE2EBA5B6200DA4880 /* GridBackground.swift */; };
 		F939C0B12EBA5B8300DA4880 /* SmartLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0B02EBA5B8300DA4880 /* SmartLayoutView.swift */; };
 		F939C0B42EBA5C3700DA4880 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0B32EBA5C3700DA4880 /* DataProvider.swift */; };
+		F939C0B62EBA5D8100DA4880 /* buildings.json in Resources */ = {isa = PBXBuildFile; fileRef = F939C0B52EBA5D8100DA4880 /* buildings.json */; };
 		F9C474BC2EB4FE51004DEACB /* GridClanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C474BB2EB4FE51004DEACB /* GridClanApp.swift */; };
 		F9C474BE2EB4FE51004DEACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C474BD2EB4FE51004DEACB /* ContentView.swift */; };
 		F9C474C02EB4FE56004DEACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C474BF2EB4FE56004DEACB /* Assets.xcassets */; };
@@ -62,6 +63,7 @@
 		F939C0AE2EBA5B6200DA4880 /* GridBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBackground.swift; sourceTree = "<group>"; };
 		F939C0B02EBA5B8300DA4880 /* SmartLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartLayoutView.swift; sourceTree = "<group>"; };
 		F939C0B32EBA5C3700DA4880 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		F939C0B52EBA5D8100DA4880 /* buildings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = buildings.json; sourceTree = "<group>"; };
 		F9C474B82EB4FE51004DEACB /* GridClan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridClan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C474BB2EB4FE51004DEACB /* GridClanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridClanApp.swift; sourceTree = "<group>"; };
 		F9C474BD2EB4FE51004DEACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				F939C0B32EBA5C3700DA4880 /* DataProvider.swift */,
+				F939C0B52EBA5D8100DA4880 /* buildings.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9C474C32EB4FE56004DEACB /* Preview Assets.xcassets in Resources */,
+				F939C0B62EBA5D8100DA4880 /* buildings.json in Resources */,
 				F9C474C02EB4FE56004DEACB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
