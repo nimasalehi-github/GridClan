@@ -1,4 +1,4 @@
-
+//
 //  DataProvider.swift
 //  GridClan
 //
@@ -7,31 +7,36 @@
 
 import Foundation
 
-/// این کلاس وظیفه دارد فایل JSON مربوط به ساختمان‌ها را بارگذاری کند.
-/// It loads the `buildings.json` file and decodes it into `BuildingDatabase`.
-final class DataProvider {
-    
-    /// Loads the building database from the bundled JSON file.
-    static func loadDatabase() -> BuildingDatabase? {
-        // 1️⃣ آدرس فایل JSON در bundle
+@MainActor
+final class DataProvider: ObservableObject {
+    @Published var buildings: [Building] = []
+    @Published var lastUpdate: Date?
+
+    /// Loads local JSON and prepares initial data
+    func loadDatabase() {
         guard let url = Bundle.main.url(forResource: "buildings", withExtension: "json") else {
             print("❌ JSON file not found in bundle.")
-            return nil
+            return
         }
-        
+
         do {
-            // 2️⃣ خواندن داده‌ها
             let data = try Data(contentsOf: url)
             let decoder = JSONDecoder()
-            
-            // 3️⃣ دیکود کردن
             let database = try decoder.decode(BuildingDatabase.self, from: data)
+            self.buildings = database.buildings
+            self.lastUpdate = ISO8601DateFormatter().date(from: database.updated_at)
             print("✅ Database loaded successfully. Version: \(database.version)")
-            return database
-            
         } catch {
             print("❌ Failed to decode JSON:", error)
-            return nil
+        }
+    }
+
+    /// Simulated future dynamic update (ChatGPT-powered)
+    func fetchLatestData() async {
+        // این متد بعداً با اتصال ChatGPT برای به‌روزرسانی خودکار جایگزین می‌شود
+        await MainActor.run {
+            self.loadDatabase()
+            print("🔁 Data refreshed from ChatGPT Dynamic Source (local simulation)")
         }
     }
 }
