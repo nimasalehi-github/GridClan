@@ -7,23 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9162C092EB901D400D3C505 /* GameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C082EB901D400D3C505 /* GameCell.swift */; };
-		F9162C0B2EB901E900D3C505 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C0A2EB901E900D3C505 /* GameObject.swift */; };
-		F9162C0D2EB901FB00D3C505 /* ObjectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C0C2EB901FB00D3C505 /* ObjectType.swift */; };
-		F9162C0F2EB9021800D3C505 /* GameGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C0E2EB9021800D3C505 /* GameGridViewModel.swift */; };
-		F9162C112EB9022900D3C505 /* GestureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C102EB9022900D3C505 /* GestureManager.swift */; };
-		F9162C132EB9023F00D3C505 /* GameGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C122EB9023F00D3C505 /* GameGridView.swift */; };
-		F9162C152EB9025700D3C505 /* ObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C142EB9025700D3C505 /* ObjectView.swift */; };
-		F9162C172EB9026600D3C505 /* ControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C162EB9026600D3C505 /* ControlPanelView.swift */; };
-		F9162C192EB9027800D3C505 /* SmartSuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9162C182EB9027800D3C505 /* SmartSuggestionView.swift */; };
-		F927E19C2EBA785600F4A3C3 /* Building.swift in Sources */ = {isa = PBXBuildFile; fileRef = F927E19B2EBA785600F4A3C3 /* Building.swift */; };
-		F927E19E2EBA7C9100F4A3C3 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F927E19D2EBA7C9100F4A3C3 /* MainMenuView.swift */; };
-		F939C0AB2EBA5AF200DA4880 /* BuildingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0AA2EBA5AF200DA4880 /* BuildingModels.swift */; };
-		F939C0AD2EBA5B3900DA4880 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0AC2EBA5B3900DA4880 /* BuildingView.swift */; };
-		F939C0AF2EBA5B6200DA4880 /* GridBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0AE2EBA5B6200DA4880 /* GridBackground.swift */; };
-		F939C0B12EBA5B8300DA4880 /* SmartLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0B02EBA5B8300DA4880 /* SmartLayoutView.swift */; };
-		F939C0B42EBA5C3700DA4880 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0B32EBA5C3700DA4880 /* DataProvider.swift */; };
-		F939C0B62EBA5D8100DA4880 /* buildings.json in Resources */ = {isa = PBXBuildFile; fileRef = F939C0B52EBA5D8100DA4880 /* buildings.json */; };
 		F9C474BC2EB4FE51004DEACB /* GridClanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C474BB2EB4FE51004DEACB /* GridClanApp.swift */; };
 		F9C474BE2EB4FE51004DEACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C474BD2EB4FE51004DEACB /* ContentView.swift */; };
 		F9C474C02EB4FE56004DEACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C474BF2EB4FE56004DEACB /* Assets.xcassets */; };
@@ -51,23 +34,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F9162C082EB901D400D3C505 /* GameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCell.swift; sourceTree = "<group>"; };
-		F9162C0A2EB901E900D3C505 /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
-		F9162C0C2EB901FB00D3C505 /* ObjectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectType.swift; sourceTree = "<group>"; };
-		F9162C0E2EB9021800D3C505 /* GameGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGridViewModel.swift; sourceTree = "<group>"; };
-		F9162C102EB9022900D3C505 /* GestureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureManager.swift; sourceTree = "<group>"; };
-		F9162C122EB9023F00D3C505 /* GameGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGridView.swift; sourceTree = "<group>"; };
-		F9162C142EB9025700D3C505 /* ObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectView.swift; sourceTree = "<group>"; };
-		F9162C162EB9026600D3C505 /* ControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPanelView.swift; sourceTree = "<group>"; };
-		F9162C182EB9027800D3C505 /* SmartSuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartSuggestionView.swift; sourceTree = "<group>"; };
-		F927E19B2EBA785600F4A3C3 /* Building.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Building.swift; sourceTree = "<group>"; };
-		F927E19D2EBA7C9100F4A3C3 /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
-		F939C0AA2EBA5AF200DA4880 /* BuildingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingModels.swift; sourceTree = "<group>"; };
-		F939C0AC2EBA5B3900DA4880 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
-		F939C0AE2EBA5B6200DA4880 /* GridBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBackground.swift; sourceTree = "<group>"; };
-		F939C0B02EBA5B8300DA4880 /* SmartLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartLayoutView.swift; sourceTree = "<group>"; };
-		F939C0B32EBA5C3700DA4880 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
-		F939C0B52EBA5D8100DA4880 /* buildings.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = buildings.json; sourceTree = "<group>"; };
 		F9C474B82EB4FE51004DEACB /* GridClan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridClan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C474BB2EB4FE51004DEACB /* GridClanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridClanApp.swift; sourceTree = "<group>"; };
 		F9C474BD2EB4FE51004DEACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,11 +74,6 @@
 		F9162BF32EB8F30A00D3C505 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F9162C082EB901D400D3C505 /* GameCell.swift */,
-				F9162C0A2EB901E900D3C505 /* GameObject.swift */,
-				F9162C0C2EB901FB00D3C505 /* ObjectType.swift */,
-				F939C0AA2EBA5AF200DA4880 /* BuildingModels.swift */,
-				F927E19B2EBA785600F4A3C3 /* Building.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -120,8 +81,6 @@
 		F9162BF42EB8F31D00D3C505 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				F9162C0E2EB9021800D3C505 /* GameGridViewModel.swift */,
-				F9162C102EB9022900D3C505 /* GestureManager.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -129,14 +88,6 @@
 		F9162BF52EB8F32A00D3C505 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				F9162C122EB9023F00D3C505 /* GameGridView.swift */,
-				F9162C142EB9025700D3C505 /* ObjectView.swift */,
-				F9162C162EB9026600D3C505 /* ControlPanelView.swift */,
-				F9162C182EB9027800D3C505 /* SmartSuggestionView.swift */,
-				F939C0AC2EBA5B3900DA4880 /* BuildingView.swift */,
-				F939C0AE2EBA5B6200DA4880 /* GridBackground.swift */,
-				F939C0B02EBA5B8300DA4880 /* SmartLayoutView.swift */,
-				F927E19D2EBA7C9100F4A3C3 /* MainMenuView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -144,8 +95,6 @@
 		F939C0B22EBA5C2600DA4880 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				F939C0B32EBA5C3700DA4880 /* DataProvider.swift */,
-				F939C0B52EBA5D8100DA4880 /* buildings.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -315,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9C474C32EB4FE56004DEACB /* Preview Assets.xcassets in Resources */,
-				F939C0B62EBA5D8100DA4880 /* buildings.json in Resources */,
 				F9C474C02EB4FE56004DEACB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,24 +289,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F939C0AD2EBA5B3900DA4880 /* BuildingView.swift in Sources */,
-				F9162C132EB9023F00D3C505 /* GameGridView.swift in Sources */,
-				F939C0B42EBA5C3700DA4880 /* DataProvider.swift in Sources */,
-				F9162C0D2EB901FB00D3C505 /* ObjectType.swift in Sources */,
-				F9162C0B2EB901E900D3C505 /* GameObject.swift in Sources */,
-				F9162C172EB9026600D3C505 /* ControlPanelView.swift in Sources */,
 				F9C474BE2EB4FE51004DEACB /* ContentView.swift in Sources */,
-				F927E19C2EBA785600F4A3C3 /* Building.swift in Sources */,
-				F939C0AB2EBA5AF200DA4880 /* BuildingModels.swift in Sources */,
-				F939C0AF2EBA5B6200DA4880 /* GridBackground.swift in Sources */,
 				F9C474BC2EB4FE51004DEACB /* GridClanApp.swift in Sources */,
-				F9162C112EB9022900D3C505 /* GestureManager.swift in Sources */,
-				F927E19E2EBA7C9100F4A3C3 /* MainMenuView.swift in Sources */,
-				F939C0B12EBA5B8300DA4880 /* SmartLayoutView.swift in Sources */,
-				F9162C0F2EB9021800D3C505 /* GameGridViewModel.swift in Sources */,
-				F9162C192EB9027800D3C505 /* SmartSuggestionView.swift in Sources */,
-				F9162C152EB9025700D3C505 /* ObjectView.swift in Sources */,
-				F9162C092EB901D400D3C505 /* GameCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
