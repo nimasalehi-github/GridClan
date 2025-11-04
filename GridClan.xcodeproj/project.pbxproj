@@ -20,6 +20,7 @@
 		F939C0AD2EBA5B3900DA4880 /* BuildingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0AC2EBA5B3900DA4880 /* BuildingView.swift */; };
 		F939C0AF2EBA5B6200DA4880 /* GridBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0AE2EBA5B6200DA4880 /* GridBackground.swift */; };
 		F939C0B12EBA5B8300DA4880 /* SmartLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0B02EBA5B8300DA4880 /* SmartLayoutView.swift */; };
+		F939C0B42EBA5C3700DA4880 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F939C0B32EBA5C3700DA4880 /* DataProvider.swift */; };
 		F9C474BC2EB4FE51004DEACB /* GridClanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C474BB2EB4FE51004DEACB /* GridClanApp.swift */; };
 		F9C474BE2EB4FE51004DEACB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C474BD2EB4FE51004DEACB /* ContentView.swift */; };
 		F9C474C02EB4FE56004DEACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C474BF2EB4FE56004DEACB /* Assets.xcassets */; };
@@ -60,6 +61,7 @@
 		F939C0AC2EBA5B3900DA4880 /* BuildingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingView.swift; sourceTree = "<group>"; };
 		F939C0AE2EBA5B6200DA4880 /* GridBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBackground.swift; sourceTree = "<group>"; };
 		F939C0B02EBA5B8300DA4880 /* SmartLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartLayoutView.swift; sourceTree = "<group>"; };
+		F939C0B32EBA5C3700DA4880 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
 		F9C474B82EB4FE51004DEACB /* GridClan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GridClan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9C474BB2EB4FE51004DEACB /* GridClanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridClanApp.swift; sourceTree = "<group>"; };
 		F9C474BD2EB4FE51004DEACB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +133,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		F939C0B22EBA5C2600DA4880 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F939C0B32EBA5C3700DA4880 /* DataProvider.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		F9C474AF2EB4FE51004DEACB = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +164,7 @@
 		F9C474BA2EB4FE51004DEACB /* GridClan */ = {
 			isa = PBXGroup;
 			children = (
+				F939C0B22EBA5C2600DA4880 /* Data */,
 				F9162BF52EB8F32A00D3C505 /* Views */,
 				F9162BF42EB8F31D00D3C505 /* ViewModels */,
 				F9162BF32EB8F30A00D3C505 /* Models */,
@@ -322,6 +333,7 @@
 			files = (
 				F939C0AD2EBA5B3900DA4880 /* BuildingView.swift in Sources */,
 				F9162C132EB9023F00D3C505 /* GameGridView.swift in Sources */,
+				F939C0B42EBA5C3700DA4880 /* DataProvider.swift in Sources */,
 				F9162C0D2EB901FB00D3C505 /* ObjectType.swift in Sources */,
 				F9162C0B2EB901E900D3C505 /* GameObject.swift in Sources */,
 				F9162C172EB9026600D3C505 /* ControlPanelView.swift in Sources */,
